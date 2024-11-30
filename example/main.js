@@ -230,7 +230,7 @@ gltflLoader.load(url, asset => {
 		stats.showPanel(0)
 		document.body.appendChild(stats.dom)
 
-		const presetsFolder = gui.pane.addFolder({ title: "Art Option x: @renaissanceartio ", expanded: false })
+		const presetsFolder = gui.pane.addFolder({ title: "Art Option x: @renaartio ", expanded: false })
 		presetsFolder
 			.addButton({
 				title: "Image"
