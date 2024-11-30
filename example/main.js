@@ -320,7 +320,7 @@ const useVideoBackground = () => {
 		emitterMesh.material.emissiveMap = emitterMesh.material._videoMap
 	} else {
 		const video = document.getElementById("video")
-		video.src = "roo1.mp4"
+		video.src = "aiart2.mp4"
 		video.playbackRate = 2
 		video.play()
 		const videoTexture = new THREE.VideoTexture(video)
